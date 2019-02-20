@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+from .models import Post
 
 # Create your views here.
 #dummy data fake posts.
@@ -20,7 +21,7 @@ posts = [
 #end fake posts
 def home(reqest):
     context = {
-        'posts': posts
+        'posts': Post.objects.all()
     }
     return render(reqest, 'blog/home.html', context)
 
