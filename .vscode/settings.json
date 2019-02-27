@@ -1,4 +1,5 @@
 {
     "python.linting.pylintEnabled": true,
-    "python.pythonPath": "C:\\Users\\ehlh5\\envs\\BlogT\\Scripts\\python.exe"
+    "python.pythonPath": "C:\\Users\\ehlh5\\envs\\BlogT\\Scripts\\python.exe",
+    "editor.formatOnType": true
 }
